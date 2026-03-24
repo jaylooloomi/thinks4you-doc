@@ -44,6 +44,28 @@ temp/
 docx-editor/reference/ecma-376/*.zip
 docx-editor/reference/ecma-376/*.pdf
 
+# Merged from docx-editor/.gitignore
+/*.png
+.claude/settings.local.json
+.claude/CLAUDE.local.md
+.claude/worktrees/
+*.swp
+*.swo
+playwright-report/
+test-results/
+.ralph/
+screenshots/
+
+# Examples framework artifacts (from docx-editor)
+examples/*/node_modules/
+examples/plugins/*/node_modules/
+examples/*/.next/
+examples/*/.astro/
+examples/*/bun.lockb
+examples/*/package-lock.json
+examples/plugins/*/bun.lockb
+examples/plugins/*/package-lock.json
+
 # Keep lockfiles tracked by default (uncomment if you want to ignore)
 # package-lock.json
 # yarn.lock
