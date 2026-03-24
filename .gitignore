@@ -1,0 +1,50 @@
+# Root .gitignore for thinks4you-doc
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test coverage
+coverage/
+
+# Temporary
+tmp/
+temp/
+
+# Large reference artifacts (optional)
+docx-editor/reference/ecma-376/*.zip
+docx-editor/reference/ecma-376/*.pdf
+
+# Keep lockfiles tracked by default (uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# bun.lock
